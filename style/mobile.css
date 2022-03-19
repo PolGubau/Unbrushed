@@ -1,0 +1,54 @@
+                @media only screen and (max-width: 715px) {
+                    .unbrushed {
+                        font-size: 12vw;
+                        padding: 0 10vw 1vw 10vw;
+                    }
+                    .subtitol {
+                        font-size: 3vw;
+                    }
+                    .sobremi {
+                        font-size: 4vw;
+                        padding: 7px 9px;
+                        width: 100%;
+                        min-width: 150px;
+                    }
+                    .sobremi_texto {
+                        line-height: 3vw;
+                        width: 80vw;
+                        text-align: center;
+                        margin-top: 20px;
+                        font-size: 3vw;
+                    }
+                    .explicacion {
+                        margin: 3px 20px;
+                    }
+                    .explication_text {
+                        text-align: center;
+                        font-size: 0.7em;
+                    }
+                    .arrow_right {
+                        display: none;
+                    }
+                    .image_item {
+                        border-radius: 0;
+                        margin: 20px;
+                        width: 15vw;
+                        position: relative;
+                        border: 2px solid transparent;
+                        transition: 0.3s ease;
+                        -webkit-transition: 0.3s ease;
+                        -moz-transition: 0.3s ease;
+                        -ms-transition: 0.3s ease;
+                        -o-transition: 0.3s ease;
+                    }
+                    .datos_texto {
+                        display: grid;
+                        grid-template-columns: repeat(1, 1fr);
+                        width: 50vw;
+                        min-width: 100px;
+                        margin: auto;
+                    }
+                    .item_datos {
+                        font-weight: bold;
+                    }
+                }
